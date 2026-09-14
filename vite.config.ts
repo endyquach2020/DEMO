@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/DEMO/',
+  base: './', // Dùng đường dẫn tương đối để chạy chuẩn trên mọi thư mục GitHub Pages
 })
